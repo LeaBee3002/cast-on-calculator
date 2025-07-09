@@ -1,6 +1,42 @@
-h1 {
-  color: #93bbec;
+body {
   font-family: "Petit Formal Script", cursive;
+}
+
+.container {
+  max-width: 600px;
+  padding: 30px;
+  background: #fcfddf;
+  border-radius: 20px;
+  margin: 60px auto;
+  border: 5px dashed #eab6d0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #93bbec;
   font-weight: 400;
   font-style: normal;
+}
+
+label {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.gauge-wrapper,
+.width-wrapper {
+  margin: 30px;
+}
+
+.calculate-button {
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  background: #eab6d0;
+  padding: 15px;
 }
