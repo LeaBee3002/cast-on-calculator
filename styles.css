@@ -44,5 +44,10 @@ label {
 button:hover {
   color: #93bbec;
   background: #fcfddf;
-  border: 2px dashed#eab6d0;
+  border: 2px dashed #eab6d0;
+}
+
+.result {
+  margin: 20px;
+  text-align: center;
 }
