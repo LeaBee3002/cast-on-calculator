@@ -32,11 +32,17 @@ label {
 .calculate-button {
   color: white;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Petit Formal Script", cursive;
   display: block;
   margin: auto;
   border: none;
   border-radius: 10px;
   background: #eab6d0;
   padding: 15px;
+}
+
+button:hover {
+  color: #93bbec;
+  background: #fcfddf;
+  border: 2px dashed#eab6d0;
 }
