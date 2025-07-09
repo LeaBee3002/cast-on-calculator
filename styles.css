@@ -1,10 +1,6 @@
 body {
   font-family: "Petit Formal Script", cursive;
-  background-color: #fcfddf;
-  opacity: 0.7;
-  background-image: linear-gradient(#eab6d0 1px, transparent 1px),
-    linear-gradient(to right, #eab6d0 1px, #fcfddf 1px);
-  background-size: 20px 20px;
+  background: #ffe9f9;
 }
 
 .container {
@@ -34,6 +30,13 @@ label {
   line-height: 1.8;
 }
 
+input {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #93bbec;
+  border-radius: 10px;
+}
+
 .gauge-wrapper,
 .width-wrapper {
   margin: 30px;
@@ -54,7 +57,7 @@ label {
 button:hover {
   color: #93bbec;
   background: #fcfddf;
-  border: 2px dashed #eab6d0;
+  border: 2px solid #eab6d0;
 }
 
 .result {
