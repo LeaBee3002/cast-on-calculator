@@ -1,5 +1,10 @@
 body {
   font-family: "Petit Formal Script", cursive;
+  background-color: #fcfddf;
+  opacity: 0.7;
+  background-image: linear-gradient(#eab6d0 1px, transparent 1px),
+    linear-gradient(to right, #eab6d0 1px, #fcfddf 1px);
+  background-size: 20px 20px;
 }
 
 .container {
