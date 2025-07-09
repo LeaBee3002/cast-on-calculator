@@ -56,3 +56,18 @@ button:hover {
   margin: 20px;
   text-align: center;
 }
+
+footer {
+  border-top: 5px dashed #eab6d0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #93bbec;
+  text-decoration: none;
+}
+
+.coder {
+  font-size: 13px;
+  margin: 20px 0 0 0;
+}
